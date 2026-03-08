@@ -1,0 +1,97 @@
+@import "tailwindcss";
+
+/* Custom Styles */
+
+body {
+  background-color: #f9fafb;
+  color: #1f2937;
+}
+
+/* Section Title */
+.section-title {
+  font-size: 1.875rem;   /* text-3xl */
+  font-weight: 700;      /* font-bold */
+  text-align: center;    /* text-center */
+  margin-bottom: 3rem;   /* mb-12 */
+}
+
+/* Container */
+.container {
+  max-width: 80rem;      /* max-w-7xl */
+  margin-left: auto;     /* mx-auto */
+  margin-right: auto;
+  padding-left: 1.5rem;  /* px-6 */
+  padding-right: 1.5rem;;
+}
+
+/* Primary Button */
+.btn-primary {
+  background-color: #154380; /* bg-green-700 */
+  color: white;              /* text-white */
+  padding: 0.75rem 1.5rem;   /* py-3 px-6 */
+  border-radius: 0.5rem;     /* rounded-lg */
+  transition: all 0.3s ease; /* transition */
+  cursor: pointer;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #163b65; /* hover:bg-green-800 */
+}
+
+/* Card */
+.card {
+  background-color: white;                     /* bg-white */
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);       /* shadow-md */
+  border-radius: 0.75rem;                      /* rounded-xl */
+  padding: 1.5rem;                             /* p-6 */
+  transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 10px 15px rgba(0,0,0,0.15);    /* hover:shadow-lg */
+}
+
+.gold-gradient {
+  background: linear-gradient(135deg, #d6b45a, #c9a84c);
+}
+
+.navy-gradient {
+  background: linear-gradient(135deg, #0d1f3c, #1b3a6b);
+}
+
+.hero-title {
+  font-size: 5rem;
+  font-weight: 900;
+  line-height: 0.9;
+}
+
+.hero-subtitle {
+  font-size: 1.2rem;
+  line-height: 1.7;
+}
+
+.glass-card {
+  backdrop-filter: blur(10px);
+  background: rgba(255,255,255,0.1);
+  border: 1px solid rgba(255,255,255,0.2);
+}
+
+.glass-card-dark {
+  backdrop-filter: blur(10px);
+  background: rgba(0,0,0,0.35);
+  border: 1px solid rgba(255,255,255,0.15);
+}
+
+.form-input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: #c9a84c;
+}
+
